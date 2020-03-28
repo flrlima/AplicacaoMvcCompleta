@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\DevIO.Business",
+    "\\src\\DevIO.Business\\Models",
+    "\\src\\DevIO.Data",
+    "\\src\\DevIO.Data\\Context",
+    "\\src\\DevIO.Data\\Mappings"
+  ],
+  "SelectedNode": "\\src\\DevIO.Data\\Mappings\\ProdutoMapping.cs",
+  "PreviewInSolutionExplorer": false
+}

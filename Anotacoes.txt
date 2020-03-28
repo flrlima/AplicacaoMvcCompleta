@@ -1,0 +1,22 @@
+-- Criando uma Migration
+		Add-Migration NomeDesejado
+		Update-Migration
+
+
+
+-- Criando um script migration das tabelas 
+		Install-Package Microsoft.EntityFrameworkCore.SqlServer
+		Script-Migration -Context AmcDbContext
+
+
+
+-- Criando a configurando o AutoMapper na camada Apresentação
+		Install-Package automapper.extensions.microsoft.dependencyinjection
+
+
+
+
+
+		PArei com 30 mninutos
+
+
