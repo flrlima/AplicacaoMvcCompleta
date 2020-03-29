@@ -86,14 +86,11 @@ namespace DevIO.App.Controllers
 
             return RedirectToAction(nameof(Index));
 
-
         }
-
 
         public async Task<IActionResult> Delete(Guid id)
         {
             var fornecedorViewModel = await ObterFornecedorEndereco(id);
-
 
             if (fornecedorViewModel == null)
             {
@@ -114,7 +111,7 @@ namespace DevIO.App.Controllers
 
             await _fornecedorRepository.Remover(id);
 
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction("Index");
         }
 
         private async Task<FornecedorViewModel> ObterFornecedorEndereco(Guid id)

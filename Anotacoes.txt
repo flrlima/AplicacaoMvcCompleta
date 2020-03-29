@@ -1,6 +1,6 @@
 -- Criando uma Migration
-		Add-Migration NomeDesejado
-		Update-Migration
+		Add-Migration NomeDesejado 
+		Update-database.
 
 
 
